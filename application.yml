@@ -1,3 +1,2 @@
-spring:
-  datasource:
-    url:abc
+test:
+  haha
