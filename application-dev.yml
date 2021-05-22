@@ -5,4 +5,24 @@ spring:
     password: admin
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
+  #邮件
+  mail:
+    host: smtp.126.com
+    username: kahzix@126.com
+    nickname: 登录系统
+    password: ZOYJJAHVPZWJNION
+    port: 25
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: true  #使用ssl 安全协议
+          starttls:
+            enable: true
+            required: true
+    default-encoding: utf-8
+#ip防暴刷参数
+ip:
+  times: 3
+  seconds: 5
   
